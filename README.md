@@ -1,4 +1,4 @@
-# Prog1_C-Assembly-Assignment
+# C And Assembly Assignment
 A Programming-1 curriculum assignment at FIEA, UCF.
 
 ###The intructions for the assignment were as follows:
