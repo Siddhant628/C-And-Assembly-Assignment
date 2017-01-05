@@ -1,0 +1,25 @@
+1. User input for the range of number of types is taken through the text file "RangeOfNumberOfTypes.txt"
+
+2. In the above file the data is in the form MIN_NUM_BYTES, MAX_NUM_BYTES, MIN_NUM_SHORTS, MAX_NUM_SHORTS , MIN_NUM_LONGS, MAX_NUM_LONGS
+
+3. The output binary file has the data in the following format:
+
+    Number of sections (Long)
+
+    ..... 
+
+    (FOR EACH SECTION)
+
+    Number of bytes to skip in order to reach next section (word)
+
+    Number of bytes in following section (word)
+
+    Number of words in the following section (word)
+
+    Number of longs in the following section (word)
+
+    (CURRENT SECTION'S DATA CHUNKS)
+
+    .....
+
+4. chunkReader is the x68 file which reads the above binary data.
